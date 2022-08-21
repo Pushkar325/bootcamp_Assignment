@@ -1,0 +1,207 @@
+
+// 1. Write a C++ program to print Hello MySirG on the screen.
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    cout<<"Hello MysirG"<<endl;
+    return 0;
+}
+
+*/
+
+// 2. Write a C++ program to print Hello on the first line and MySirG on the second line
+//using endl.
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    cout<<"Hello\n"<<"MySirG"<<endl;
+}
+*/
+
+// 3. Write a C++ program to calculate the sum of two numbers.
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int a=10;
+    int b=20;
+    cout<<"Sum of the two numebr is "<<a+b<<endl;
+    return 0;
+
+
+}
+*/
+
+// 4. Write a C++ program to calculate the area of a circle
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+#define PI 3.14
+
+int main()
+{
+    float r;
+    cout<<"Enter the radius"<<endl;
+    cin>>r;
+    float area=PI*(r*r);
+    cout<<"Area of circle : "<<area<<endl;
+}
+*/
+
+// 5. Write a C++ program to calculate the volume of a cuboid.
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    float length,breath,height;
+    cout<<"Enter the length"<<endl;
+    cin>>length;
+    cout<<"Enter the breath"<<endl;
+    cin>>breath;
+    cout<<"Enter the height"<<endl;
+    cin>>height;
+    float cubiod=length*breath*height;
+    cout<<"volume of a cuboid : "<<cubiod<<" cubic unit"<<endl;
+}
+*/
+
+// 6. Write a C++ program to calculate an average of 3 numbers.
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    float firstNumber, secondNumber, thirdNumber;
+    cout<<"Enter the first number"<<endl;
+    cin>>firstNumber;
+    cout<<"Enter the seond number"<<endl;
+    cin>>secondNumber;
+    cout<<"Enter the thrid number"<<endl;
+    cin>>thirdNumber;
+    float average=(firstNumber+secondNumber+thirdNumber)/3;
+    cout<<"Average of the 3 numbers is : "<<average<<endl;
+}
+
+*/
+
+// 7. Write a C++ program to calculate the square of a number
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"Enter the number"<<endl;
+    cin>>n;
+    cout<<"square of the "<<n<<" is : "<<n*n<<endl;
+    return 0;
+
+}
+
+*/
+
+// 8. Write a C++ program to swap values of two int variables without using third variable
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int first,second;
+    cout<<"Enter the first number"<<endl;
+    cin>>first;
+    cout<<"Enter the second number"<<endl;
+    cin>>second;
+    cout<<"Before swaping :"<<first<<" "<<second<<endl;
+    swap(first,second);  // inbuilt function use kar raha hu mai
+    cout<<"After swaping : "<<first<<" "<<second<<endl;
+
+}
+*/
+
+// 9. Write a C++ program to find the maximum of two numbers.
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int firstNumber, secondNumebr;
+    cout<<"Enter First Number"<<endl;
+    cin>>firstNumber;
+    cout<<"Enter second number"<<endl;
+    cin>>secondNumebr;
+    if(firstNumber>secondNumebr)
+    {
+        cout<<"Maximum number is : "<<firstNumber<<endl;
+    }
+    else
+    {
+        cout<<"Maximum number is : "<<secondNumebr<<endl;
+    }
+}
+      // OR
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int first,second;
+    cout<<"Enter first number"<<endl;
+    cin>>first;
+    cout<<"Enter second number"<<endl;
+    cin>>second;
+    int maximum=max(first,second);  // inbuilt function use kar raha hu
+    cout<<"maximum is : "<<maximum<<endl;
+
+}
+
+*/
+
+// 10. Write a C++ program to add all the numbers of an array of size 10.
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int arr[10];
+    cout<<"Enter the number of element in tha array"<<endl;
+    for(int i=0; i<10; i++)
+    {
+        cin>>arr[i];
+    }
+    int sum=0;
+    for(int i=0; i<10; i++)
+    {
+        sum=sum+arr[i];
+
+    }
+    cout<<"Sum of the 10 array is : "<<sum<<endl;
+    return 0;
+
+}
+*/
